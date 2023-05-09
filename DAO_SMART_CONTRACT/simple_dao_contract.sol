@@ -1,4 +1,4 @@
-## A simple DAO contract to join and create a simple question
+// A simple DAO contract to join and create a simple question
 
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
