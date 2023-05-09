@@ -7,7 +7,7 @@ Join the Quest challenge Exclusive for Polygon Advocates to showcase their skill
 
 
 
-## goku#001 - goku#050
+## goku#001 - goku#050 🔥
 
 **How get one of these, What is the possible ways of contribution ?**
 
@@ -21,7 +21,7 @@ Use Polygon solutions like POS, zkEVM, and ID to add a repo to the Advocates Git
 
 These are some of the suggestion to what you could do, feel free to add your creative minds here, Also please make sure to submit your code to the Advocates GitHub, If you are having any difficulties creating one please contact Abix tg "**amiabix**".
 
-## naruto#001 - naruto#050
+## naruto#001 - naruto#050 🍥 
 
 **How get one of these, What is the possible ways of contribution ?** 
 
@@ -32,7 +32,7 @@ To complete this challenge, You are required to host a workshop that focuses on 
  - Facilitate the workshop on Polygon solutions like POS, zkEVM, and ID, providing guidance and support to
    participants as needed, and encourage questions and discussion.
 
-## mikasa#001 - mikasa#050
+## mikasa#001 - mikasa#050 🗡️ 
 
 **How get one of these, What is the possible ways of contribution ?** 
 
@@ -44,13 +44,13 @@ To complete this challenge, You need to explore and experiment with different Po
    experience. Your tutorials and guides could be in the form of blog, twitter thread 
   , video tutorials, or GitHub repositories.
   
-## itadori#001 - itadori#050
+## itadori#001 - itadori#050 💪
 
 **How get one of these, What is the possible ways of contribution ?** 
 
 Participate in hackathons and events, showcasing your projects and sharing your experience with others, one of the recent hackathons running is [Polygon APAC DevX Tour](https://dorahacks.io/hackathon/polygondevx)  feel free to build and showcase your skills and also get some bounties. 
 
-## kagome#001 - kagome#200
+## kagome#001 - kagome#200 🏹
 
 **How get one of these, What is the possible ways of contribution ?** 
 
@@ -78,22 +78,33 @@ you can contribute in various non-technical ways as well. For instance, you can 
 | 9 cards | Sponsored trip to Polygon Connect (upto $1000) |
 |11 cards | Closed session with your chosen Co-founder of Polygon Labs |
 
-## Wait !! did we mention about Kuraia, the Nine-Tailed Vixen ? 
+## Wait !! did we mention about Kuraia, the Nine-Tailed Vixen ? ✨ 🦊 ✨
 
 
 *Consider this as an exclusive card for doning anything out of the box, what could be something out of the box ?  It could be anything that blows our heads through the roof with creativity, ***This is the Card eligible for all the rewards mentioned above and much more !!!****
 
-## Submissions and guidelines 
+## Submissions and guidelines 🏄‍♂️
 
-1.  Submit your work to the designated form here, Make sure to include a brief description of your work, your GitHub repository link (if applicable), and any other relevant details.
+1.  Submit your work to the designated form [here](https://airtable.com/shrJW5zrv1BnZTxWy), Make sure to include a brief description of your work, your GitHub repository link (if applicable), and any other relevant details.
     
-2.  The submission deadline for each challenge is May 30th. Make sure to submit your work before the deadline to be eligible for rewards.
+2.  The submission ***deadline for each challenge is May 30th***. Make sure to submit your work before the deadline to be eligible for rewards.
     
 3.  All submissions will be reviewed by the Polygon team, and the top performers will be rewarded with prizes such as exclusive Polygon swag, tokens, and more.
 
 ***looking to view the collection set ? [Check it out here](https://opensea.io/collection/the-quest-polygon-advocates)*** 
 
 
-## Is there a smart way of doing it ? 
+## Is there a smart way of doing it ? 🧠
 
-Yeah, Absolutely 
+Yeah, Absolutely, let me drop you an example that helps you get 3 cards in a single go  could be of help:
+
+ - Create a repository showcasing your expertise by building a simple smart contract or dApp using Polygon solutions like POS, zkEVM, or ID on the Advocates GitHub, which gets you to complete the goku card.
+ 
+ - Refine the repo with a good formatted # READMEs and publish, This could also include sections like, how people could contribute to it, Possible enhancements etc, which gets you to complete the mikasa card
+
+ - Since you already have things in order just tweet about it in a formt of a twitter thread, tagging @0xPolyAdvocates ,Thread could have info about the repo, what one can learn from it or what did you contribute to it etc. which gets you to complete the Kagome card.
+
+***If you round that up you just unlocked the 3 card set for yourself in a single go !*** 🤩 🤩
+
+That being said you could look for possible combinations to unlock others! Once done You could just add the detials for **submission** [**here**](https://airtable.com/shrJW5zrv1BnZTxWy) 
+ 
