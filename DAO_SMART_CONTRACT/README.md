@@ -12,7 +12,7 @@ This DAO logic is divided into three levels.
 ## Levels
 
 - **Simple**: [:link:](https://github.com/PriyathamVarma/The-Quest/blob/main/DAO_SMART_CONTRACT/simple_dao_contract.sol)
-- **Medium**: 
+- **Medium**: [:link:](https://github.com/PriyathamVarma/The-Quest/blob/main/DAO_SMART_CONTRACT/Medium_DAO_contract.sol)
 - **Hard**: 
 
 Tags: #smartcontract #DAO #voting #ethereum #blockchain
