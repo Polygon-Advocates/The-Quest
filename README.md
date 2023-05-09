@@ -89,7 +89,7 @@ you can contribute in various non-technical ways as well. For instance, you can 
     
 2.  The submission ***deadline for each challenge is May 30th***. Make sure to submit your work before the deadline to be eligible for rewards.
     
-3.  All submissions will be reviewed by the Polygon team, and the top performers will be rewarded with prizes such as exclusive Polygon swag, tokens, and more.
+3.  All submissions will be reviewed by the Polygon team
 
 ***looking to view the collection set ? [Check it out here](https://opensea.io/collection/the-quest-polygon-advocates)*** 
 
