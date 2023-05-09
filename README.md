@@ -1,9 +1,3 @@
 # The Quest - Solutions
 
-## For Goku
-
-- Simple smart contract logic for a DAO
-
-## For 
-
-- Comics for learning zkEVM.
+This repository is for submitting solutions to the polygon **THE QUEST** contest and claim rewards.
