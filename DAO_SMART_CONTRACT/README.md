@@ -15,4 +15,6 @@ This DAO logic is divided into three levels.
 - **Medium**: [:link:](https://github.com/PriyathamVarma/The-Quest/blob/main/DAO_SMART_CONTRACT/Medium_DAO_contract.sol)
 - **Hard**: 
 
+**Want to Contribute ?** : [Click here for instructions](https://github.com/PriyathamVarma/The-Quest/blob/main/DAO_SMART_CONTRACT/how_to_contribute.md)
+
 Tags: #smartcontract #DAO #voting #ethereum #blockchain
