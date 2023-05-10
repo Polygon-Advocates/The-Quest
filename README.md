@@ -15,7 +15,7 @@ Use Polygon solutions like POS, zkEVM, and ID to add a repo to the Advocates Git
 
 **Ways to contribute and collect one of these:** 
 
--  Fork this repository and name the file "username_<any title they wish to use>" eg. johnsoncarl_deploying_your_own_erc20 and start showcasing your expertise by building a simple smart contract or dApp using Polygon solutions like POS, zkEVM, or ID.
+-  Fork this repository and name the file "username_any title they wish to use" eg. johnsoncarl_deploying_your_own_erc20 and start showcasing your expertise by building a simple smart contract or dApp using Polygon solutions like POS, zkEVM, or ID.
 
 -  The smart contract could be a basic voting or polling system, crowdfunding platform, or any other contract of your choice.
 
