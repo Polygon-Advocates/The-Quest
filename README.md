@@ -104,7 +104,7 @@ Yeah, Absolutely, let me drop you an example that helps you get 3 cards in a sin
  
  - Refine the repo with a good formatted # READMEs and publish, This could also include sections like, how people could contribute to it, Possible enhancements etc, which gets you to complete the mikasa card
 
- - Since you already have things in order just tweet about it in a formt of a twitter thread, tagging @0xPolyAdvocates ,Thread could have info about the repo, what one can learn from it or what did you contribute to it etc. which gets you to complete the Kagome card.
+ - Since you already have things in order just tweet about it in a form of a twitter thread, tagging @0xPolyAdvocates ,Thread could have info about the repo, what one can learn from it or what did you contribute to it etc. which gets you to complete the Kagome card.
 
 ***If you round that up you just unlocked the 3 card set for yourself in a single go !*** 🤩 🤩
 
