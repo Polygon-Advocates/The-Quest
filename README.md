@@ -6,7 +6,7 @@ This project is an extension of the basic implementation of an ERC721 smart cont
 
 When a user requests to mint a new NFT, they must provide a valid zkProof generated from PolygonID and a valid Verifiable Credential issued by the issuer node. The zkProof must contain information about the user's identity and proof that they meet certain criteria specified in the contract. The Verifiable Credential must be issued by the trusted issuer node and contain verifiable information about the user's identity. Only if both the zkProof and Verifiable Credential are valid will the contract mint a new NFT and transfer ownership to the user.
 
-**In this project it only mints you an NFT if you are born on 13-09-2003.
+**In this project it only mints you an NFT if you are born on 13-09-2003.**
 
 ## Dependencies
 
@@ -30,5 +30,5 @@ This project depends on the following technologies:
 - Scan this QR in the PolygonID app to get your NFT
 <img width="300" alt="Screenshot 2023-05-13 at 1 56 37 AM" src="https://github.com/chiranjeev13/The-Quest/assets/44394108/bb84176a-1f65-480f-9c46-66d98085a846">
 
-- What this does is it sends of a zkQuery which if verifies your credentials will call NFT mint function call 
+- What this does is it sends of a zkQuery which if verifies your credentials (that you were born on 13-09-2003 or not) and  will call NFT mint function call 
 - View your NFT in Opensea testnet at contract address - `0x9ee2E54cFad55C7995ae3599B756D0CcfE320933`
