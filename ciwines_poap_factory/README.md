@@ -8,20 +8,28 @@ Users can get a POAP by minting it through the mint function, or by using a rela
 
 ## Deploy
 In order to deploy POAP Factory you need to get some zkEVM ETH first. After that you can clone this repository
-```
+```bash
 $ git clone https://github.com/ciwines/The-Quest.git
 ```
 
 Then you have to install the required dependencies
-```
+```bash
 $ npm i
 ```
 Now you have to set up your environment variables by editing the .env file. You can use the .env.template as a starting point.
 
 After that, you can change the relayer address in the scripts/deploy.js file (by default it's 0x0000...0000).
 Last but not least, you need to deploy the smart contracts.
-```
+```bash
 $ npx hardhat run scripts/deploy.js --network zkEVM
 ```
 
+## Contributing
+Pull requests are welcome. For major changes, please open an issue first
+to discuss what you would like to change.
+
+Please make sure to update tests as appropriate.
 Have fun improving it and happy coding 💜.
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
