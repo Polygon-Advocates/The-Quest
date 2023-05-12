@@ -27,7 +27,7 @@ This project depends on the following technologies:
 - After Successfully adding the credential you should be able to see this
 <img width="430" alt="" src="https://github.com/chiranjeev13/The-Quest/assets/44394108/9aff7163-a9a2-468f-9f52-6e942c392048">
 
-- Scan this QR to get your NFT
+- Scan this QR in the PolygonID app to get your NFT
 <img width="300" alt="Screenshot 2023-05-13 at 1 56 37 AM" src="https://github.com/chiranjeev13/The-Quest/assets/44394108/bb84176a-1f65-480f-9c46-66d98085a846">
 
 - What this does is it sends of a zkQuery which if verifies your credentials will call NFT mint function call 
