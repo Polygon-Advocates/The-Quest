@@ -1,7 +1,5 @@
 # HyperVault 🔐
 
-Live Link : <https://hypervault.vercel.app>
-
 HyperVault is a vault on blockchain in which we can deposit our funds and then we can withdraw them in exchange of the stable coins which we got in exchange of the amount we staked in the vault.
 
 **How crypto vaults works ?**
