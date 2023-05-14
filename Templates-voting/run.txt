@@ -1,26 +1,29 @@
 
 To run the provided Solidity code in Remix using MetaMask, you can follow these steps:
 
-Open Remix: Open the Remix IDE (https://remix.ethereum.org/) in your web browser.
+1. Open Remix: Open the Remix IDE (https://remix.ethereum.org/) in your web browser.
 
-Create a New File: Click on the folder "contracts" create a new file Name it "Voting.sol" (or any desired name First letter capital, .sol extension).
+2. Create a New File: Click on the folder "contracts" create a new file Name it "Voting.sol" (or any desired name First letter capital, .sol extension).
 
-Copy the Code: Copy and paste the Solidity code into the newly created "Voting.sol" file in the Remix IDE.
+3. Copy the Code: Copy and paste the Solidity code into the newly created "Voting.sol" file in the Remix IDE.
 
-Choose Compiler Version: In the "Solidity Compiler" tab, select the desired compiler version (e.g., 0.8.0). Make sure it matches the pragma statement in the code.
+4. Choose Compiler Version: In the "Solidity Compiler" tab, select the desired compiler version (e.g., 0.8.0). Make sure it matches the pragma statement in the code.
 
-Compile the Code: Click on the "Compile Voting.sol" button to compile the code. The compiler will generate the bytecode and ABI (Application Binary Interface) for the contract.
+5. Compile the Code: Click on the "Compile Voting.sol" button to compile the code. The compiler will generate the bytecode and ABI (Application Binary Interface) for the contract.
 
-Switch to the "Deploy & Run Transactions" tab: Click on the "Deploy & Run Transactions" tab on the left side of the Remix interface.
+6. Switch to the "Deploy & Run Transactions" tab: Click on the "Deploy & Run Transactions" tab on the left side of the Remix interface.
 
-Connect to MetaMask: Ensure that you have the MetaMask extension installed in your browser and that it is connected to Mumbai testnet or any other EVM compatible chain you want to deploy on.
+7. Connect to MetaMask: Ensure that you have the MetaMask extension installed in your browser and that it is connected to Mumbai testnet or any other EVM compatible chain you want to deploy on.
 
-Deploy the Contract: In the "Deploy & Run Transactions" tab, under the "Environment" dropdown, select "Injected Web3" to connect to MetaMask. This will populate the "Account" dropdown with your MetaMask account address.
+8. Deploy the Contract: In the "Deploy & Run Transactions" tab, under the "Environment" dropdown, select "Injected Web3" to connect to MetaMask. This will populate the "Account" dropdown with your MetaMask account address.
 
-Deploy the Contract: Click on the "Deploy" button below the contract details. MetaMask will prompt you to confirm the deployment transaction. Adjust the gas limit if necessary and confirm the transaction.
+9. Deploy the Contract: Click on the "Deploy" button below the contract details. MetaMask will prompt you to confirm the deployment transaction. Adjust the gas limit if necessary and confirm the transaction.
 
-Interact with the Contract: Once the contract is deployed, you can interact with its functions. You will see the contract instance in the "Deployed Contracts" section below. Expand the contract instance to access its functions and state variables.
+10. Interact with the Contract: Once the contract is deployed, you can interact with its functions. You will see the contract instance in the "Deployed Contracts" section below. Expand the contract instance to access its functions and state variables.
 
-Vote for Option A or Option B: Click on the "voteForOptionA" or "voteForOptionB" function, depending on your preferred choice. Confirm the transaction in MetaMask to execute the function.
+11. Vote for Option A or Option B: Click on the "voteForOptionA" or "voteForOptionB" function, depending on your preferred choice. Confirm the transaction in MetaMask to execute the function.
 
-View Vote Count: After voting, you can check the updated vote counts by accessing the optionAVotes and optionBVotes public variables in the deployed contract instance.
+12. View Vote Count: After voting, you can check the updated vote counts by accessing the optionAVotes and optionBVotes public variables in the deployed contract instance.
+
+13. for the file where we are using the smartcomtract with frontend we can use Web3.js library and input our ABI and contract address to use the contract.
+ for any further doubts feel free to reach out to twitter: @momosdo or github:Ananyaagupta
