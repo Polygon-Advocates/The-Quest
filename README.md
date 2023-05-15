@@ -21,7 +21,8 @@ This project depends on the following technologies:
 
 - To Issue yourself a KYC credential with birthday 13-09-2003
 - Open your PolygonID App on your mobile and scan this QR
-<img width="1130" alt="Screenshot 2023-05-13 at 1 36 53 AM" src="https://github.com/chiranjeev13/The-Quest/assets/44394108/785c9db3-296d-4105-9e4d-fb961bbcac39">
+<img width="1205" alt="Screenshot 2023-05-15 at 11 11 45 AM" src="https://github.com/chiranjeev13/The-Quest/assets/44394108/934bef0f-2055-416a-adeb-f89f457db87b">
+
 
 - You will get a notfication on your PolygonID App
 - After Successfully adding the credential you should be able to see this
