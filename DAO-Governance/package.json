@@ -1,6 +1,7 @@
 {
   "dependencies": {
     "@erc725/smart-contracts": "^5.0.0",
+    "dotenv": "^16.0.3",
     "hardhat": "^2.14.0"
   },
   "devDependencies": {

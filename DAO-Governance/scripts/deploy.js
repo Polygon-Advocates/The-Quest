@@ -1,5 +1,4 @@
 const hre = require("hardhat");
-const { verify } = require("./verify");
 async function main() {
   // We get the contract to deploy
   const Cave = await hre.ethers.getContractFactory("Governance");
