@@ -38,7 +38,7 @@ In this tutorial we will be building an Staking dApp on Polygon zkEVM Testnet.
   - Go to our Metamask Wallet, copy the Private Key from there and paste it like this:
     `PRIVATE_KEY = Your Private Key`
   - Go to [zkEVM Polygon Scan](https://zkevm.polygonscan.com/myapikey), sign in and then create an API Key. After that paste it like this:
-    `ZKEVM_ZKEVM_POLYGON_SCAN_KEY= Your zkEVM Polygon Scan Key`
+    `ZKEVM_POLYGON_SCAN_KEY= Your zkEVM Polygon Scan Key`
 
 - Go to `hardhat.config.js` and paste the following code in it:
 
