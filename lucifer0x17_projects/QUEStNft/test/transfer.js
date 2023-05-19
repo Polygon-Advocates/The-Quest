@@ -1,7 +1,7 @@
 const hre = require("hardhat");
 const { expect } = require("chai");
 const { loadFixture } = require("@nomicfoundation/hardhat-network-helpers");
-describe("NFT Collection Transfer", function () {
+describe("QUEST NFT Transfer", function () {
 
     async function fixture() {
         const [owner, user1, user2] = await hre.ethers.getSigners();

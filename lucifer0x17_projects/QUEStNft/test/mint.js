@@ -1,7 +1,7 @@
 const hre = require("hardhat");
 const { expect } = require("chai");
 const { loadFixture } = require("@nomicfoundation/hardhat-network-helpers");
-describe("NFT Collection Minting", function () {
+describe("QUEST NFT Minting", function () {
 
     async function fixture() {
         const [owner, user1] = await hre.ethers.getSigners();

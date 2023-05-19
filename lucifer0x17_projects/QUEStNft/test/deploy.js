@@ -1,7 +1,7 @@
 const hre = require("hardhat");
 const { expect } = require("chai");
 
-describe("NFT Collection Deployment", function () {
+describe("QUEST NFT Deployment", function () {
 
     it("Should deploy the NFT Contract", async function () {
         const [owner, user1] = await hre.ethers.getSigners();
