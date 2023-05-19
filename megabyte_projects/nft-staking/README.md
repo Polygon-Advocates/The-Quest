@@ -362,7 +362,7 @@ describe("Staking Function", function () {
 
 This test is to check whether the `stakeNFT` function is working properly or not. We are first deploying the `QuestNFT` and `QuestToken` contracts and then deploying the `Staking` contract. We are also minting an NFT for the user and approving the `Staking` contract to transfer the NFT on behalf of the user. Then we are calling the `stakeNFT` function of the `Staking` contract and checking if the NFT is transferred to the `Staking` contract or not.
 
-### 3. Testing the `unStakeNFT` function.
+### 3. Testing the `unStakeNFT` function
 
 - Create a new file named `unstake.js` in the `test` folder and add the following code:
 
@@ -445,60 +445,58 @@ This test is to check whether the `unStakeNFT` function is working properly or n
 
 ## --
 
-### 4. Deploying and verifying the smart contracts to the Polygon Polygon zkEVM Testnet.
+### 4. Deploying and verifying the smart contracts to the Polygon Polygon zkEVM Testnet
 
 - Delete the `Lock.js` file from `scripts` folder and create new file named `deploy.js`.
 
 - Paste the following code.
 
-```
+```js
 const { ethers } = require("hardhat");
 
 async function main() {
-    const [deployer] = await ethers.getSigners();
-    console.log("Deploying contracts with the account:", deployer.address);
-    console.log("Account balance:", (await deployer.getBalance()).toString());
+  const [deployer] = await ethers.getSigners();
+  console.log("Deploying contracts with the account:", deployer.address);
+  console.log("Account balance:", (await deployer.getBalance()).toString());
 
-    try {
-        const NFT = await ethers.getContractFactory("QuestNFT");
-        const nft = await NFT.deploy("QuestNFT", "QN");
-        await nft.deployed();
-        console.log("NFT Contract Address:", nft.address);
+  try {
+    const NFT = await ethers.getContractFactory("QuestNFT");
+    const nft = await NFT.deploy("QuestNFT", "QN");
+    await nft.deployed();
+    console.log("NFT Contract Address:", nft.address);
 
-        const TOKEN = await ethers.getContractFactory("QuestToken");
-        const token = await TOKEN.deploy("QuestToken", "QT");
-        await token.deployed();
-        console.log("Token Contract Address:", token.address);
+    const TOKEN = await ethers.getContractFactory("QuestToken");
+    const token = await TOKEN.deploy("QuestToken", "QT");
+    await token.deployed();
+    console.log("Token Contract Address:", token.address);
 
-        const STAKING = await ethers.getContractFactory("Staking");
-        const staking = await STAKING.deploy(nft.address, token.address);
-        await staking.deployed();
-        console.log("Staking Contract Address:", staking.address);
+    const STAKING = await ethers.getContractFactory("Staking");
+    const staking = await STAKING.deploy(nft.address, token.address);
+    await staking.deployed();
+    console.log("Staking Contract Address:", staking.address);
 
-        await hre.run("verify:verify", {
-            address: nft.address,
-            constructorArguments: ["QuestNFT", "QN"],
-        });
+    await hre.run("verify:verify", {
+      address: nft.address,
+      constructorArguments: ["QuestNFT", "QN"],
+    });
 
-        await hre.run("verify:verify", {
-            address: token.address,
-            constructorArguments: ["QuestToken", "QT"],
-        });
+    await hre.run("verify:verify", {
+      address: token.address,
+      constructorArguments: ["QuestToken", "QT"],
+    });
 
-        await hre.run("verify:verify", {
-            address: staking.address,
-            constructorArguments: [nft.address, token.address],
-        });
-
-    } catch (error) {
-        console.error(error);
-    }
-
+    await hre.run("verify:verify", {
+      address: staking.address,
+      constructorArguments: [nft.address, token.address],
+    });
+  } catch (error) {
+    console.error(error);
+  }
 }
 
 main().catch((error) => {
-    console.error(error);
-    process.exitCode = 1;
+  console.error(error);
+  process.exitCode = 1;
 });
 ```
 
@@ -507,3 +505,15 @@ main().catch((error) => {
 Through this script we are deploying the `QuestNFT`, `QuestToken` and `Staking` contracts and verifying them on the Polygon zkEVM Testnet. We are using `ethers` to interact with the smart contracts and `hardhat` to deploy and verify the contracts.
 
 > So now you have successfully deployed and verified the smart contracts on the Polygon zkEVM Testnet.
+
+---
+
+---
+
+If you have any queries PING ME on Telegram [@megabyte0x](https://t.me/megabyte0x)
+
+Keep BUIDLing (:bricks:,:rocket:)
+
+---
+
+---
