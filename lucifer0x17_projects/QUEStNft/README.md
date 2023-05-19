@@ -415,4 +415,9 @@ After that we are using `hre` to **verify** the smart contract. We are passing t
 
 ---
 
+If you have any queries PING ME on Telegram [@lucifer0x17](https://t.me/lucifer0x17)
+
+Keep BUIDLing (:bricks:,:rocket:)
+---
+
 ---
