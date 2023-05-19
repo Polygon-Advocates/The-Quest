@@ -79,7 +79,7 @@ module.exports = {
 };
 ```
 
-Here we are importing the `hardhat-toolbox` which will help us to deploy our contract on Polygon Mumbai Testnet. We are also importing the `dotenv` which will help us to import the environment variables from the `.env` file. We are also importing the `ALCHEMY_HTTP_URL`, `PRIVATE_KEY` and `POLYGON_SCAN_KEY` from the `.env` file. We are also specifying the `solidity` version and the `networks` we are going to use. We are also specifying the `etherscan` API key for verifying the contract on Polygon Scan.
+Here we are importing the `hardhat-toolbox` which will help us to deploy our contract on Polygon zkEVM Testnet. We are also importing the `dotenv` which will help us to import the environment variables from the `.env` file. We are also importing the `ALCHEMY_HTTP_URL`, `PRIVATE_KEY` and `POLYGON_SCAN_KEY` from the `.env` file. We are also specifying the `solidity` version and the `networks` we are going to use. We are also specifying the `etherscan` API key for verifying the contract on Polygon Scan.
 
 > So our development environment is ready!!!
 
@@ -402,14 +402,14 @@ main().catch((error) => {
 });
 ```
 
-- Run `npx hardhat run scripts/deploy.js --network mumbai` to deploy and verify the contract on the Mumbai Testnet.
+- Run `npx hardhat run scripts/deploy.js --network polygonzkevmtestnet` to deploy and verify the contract on the zkEVM Testnet.
 
-In this script we are deploying the smart contract and verifying it on the Mumbai Testnet. We are using `ethers` to interact with the smart contract and `hre` to verify the smart contract.
+In this script we are deploying the smart contract and verifying it on the zkEVM Testnet. We are using `ethers` to interact with the smart contract and `hre` to verify the smart contract.
 From `ethers` we are getting the **signer** and then we are getting the **contract factory**. We are using the **_contract factory to deploy the smart contract_**. After the contract is deployed we are getting the address of the contract and printing it.
-We are using `sleep` function to wait for the contract to be deployed on the Mumbai Testnet, it is used because the contract is not deployed immediately after the transaction is mined. The contract is deployed after some time.
+We are using `sleep` function to wait for the contract to be deployed on the zkEVM Testnet, it is used because the contract is not deployed immediately after the transaction is mined. The contract is deployed after some time.
 After that we are using `hre` to **verify** the smart contract. We are passing the address of the contract and the **constructor arguments** to the `verify` function.
 
-> So you have successfully deployed and verified your smart contract on Polygon Mumbai Testnet.
+> So you have successfully deployed and verified your smart contract on Polygon zkEVM Testnet.
 
 ---
 
